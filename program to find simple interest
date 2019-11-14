@@ -1,0 +1,22 @@
+#include<iostream.h>
+#include<conio.h>
+
+void main() 
+{
+  float amount, rate, time, si;
+ 
+  clrscr();
+  cout<<"Enter Principal Amount: ";
+  cin>>amount;
+ 
+  cout<<"Enter Rate of Interest: ";
+  cin>>rate;
+ 
+  cout<<"Enter Period of Time: ";
+  cin>>time;
+ 
+  si = (amount * rate * time) / 100;
+  cout<<"Simple Interest: "<<si;
+  
+ getch();
+}
